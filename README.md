@@ -29,11 +29,3 @@ Primero se utiliza Bubble Sort para ordenar los números de menor a mayor. Despu
 Entrada: [5, 4, 2, 3]
 
 Salida: [3, 2, 5, 4]
-
-## Problema 2: Number of Recent Calls
-
-Pendiente.
-
-## Problema 3: Kth Smallest Element in a BST
-
-Pendiente.
