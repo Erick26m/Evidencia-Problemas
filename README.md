@@ -1,4 +1,4 @@
-# Evidencia Problemas de Programación - TC1031
+# Evidencia Problemas 
 
 En este repositorio se encuentran las soluciones de tres problemas seleccionados de LeetCode, utilizando C++ y aplicando algoritmos y estructuras de datos vistos en clase.
 
