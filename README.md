@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En esta evidencia se resuelven tres problemas de la plataforma LeetCode utilizando C++. El objetivo es aplicar los conocimientos vistos en clase sobre algoritmos de ordenamiento, estructuras lineales y estructuras no lineales.
+En esta evidencia se resuelven tres problemas de LeetCode utilizando C++.
 
 Los problemas se seleccionaron con dos niveles de dificultad Easy y uno Medium.
 
@@ -54,26 +54,6 @@ nums = [5, 4, 2, 3]
 ### Código
 
 [Ver solución en C++](2974_Minimum_Number_Game.cpp)
-
-## Problema 2: Number of Recent Calls
-
-**Número:** 933  
-**Dificultad:** Easy  
-**Tema:** Estructuras lineales
-
-**Enlace:** https://leetcode.com/problems/number-of-recent-calls/
-
-Pendiente de resolver.
-
-## Problema 3: Kth Smallest Element in a BST
-
-**Número:** 230  
-**Dificultad:** Medium  
-**Tema:** Estructuras no lineales
-
-**Enlace:** https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-
-Pendiente de resolver.
 
 ## Plataforma utilizada
 
