@@ -1,31 +1,80 @@
-# Evidencia Problemas 
+# Evidencia de Problemas
 
-En este repositorio se encuentran las soluciones de tres problemas seleccionados de LeetCode, utilizando C++ y aplicando algoritmos y estructuras de datos vistos en clase.
+## Descripción
+
+En esta evidencia se resuelven tres problemas de la plataforma LeetCode utilizando C++. El objetivo es aplicar los conocimientos vistos en clase sobre algoritmos de ordenamiento, estructuras lineales y estructuras no lineales.
+
+Los problemas se seleccionaron con dos niveles de dificultad Easy y uno Medium.
 
 ## Problema 1: Minimum Number Game
 
-- **Número:** 2974
-- **Dificultad:** Easy
-- **Tema:** Algoritmos de ordenamiento
-- **Algoritmo utilizado:** Bubble Sort
+**Número:** 2974  
+**Dificultad:** Easy  
+**Tema:** Algoritmos de ordenamiento  
+**Algoritmo utilizado:** Bubble Sort
 
 **Enlace al problema:** https://leetcode.com/problems/minimum-number-game/
 
-### Descripción
+### Descripción del problema
 
-El problema consiste en ordenar un arreglo de números y después intercambiar sus elementos de dos en dos, siguiendo las reglas del juego.
+El problema consiste en un juego entre Alice y Bob. En cada ronda, Alice toma el número más pequeño del arreglo y Bob toma el siguiente número más pequeño. Después, los números se agregan al resultado colocando primero el de Bob y luego el de Alice.
+
+Este proceso se repite hasta utilizar todos los números.
 
 ### Solución
 
-Primero se utiliza Bubble Sort para ordenar los números de menor a mayor. Después, mediante otro ciclo, se intercambian las posiciones de cada pareja de números.
+Para resolver el problema utilicé el algoritmo Bubble Sort, que permite ordenar los números de menor a mayor comparando elementos consecutivos e intercambiándolos cuando es necesario.
 
-### Complejidad
+Una vez ordenado el arreglo, utilizo otro ciclo que avanza de dos en dos. En cada vuelta guardo los números correspondientes a Alice y Bob, y después intercambio sus posiciones para seguir las reglas del juego.
 
-- **Tiempo:** O(n²), debido al ordenamiento burbuja.
-- **Espacio:** O(1), porque se modifica directamente el arreglo.
+Finalmente, regreso el arreglo con los números en el orden solicitado.
 
 ### Ejemplo
 
-Entrada: [5, 4, 2, 3]
+**Entrada:**
+```text
+nums = [5, 4, 2, 3]
+```
 
-Salida: [3, 2, 5, 4]
+**Arreglo ordenado:**
+```text
+[2, 3, 4, 5]
+```
+
+**Salida:**
+```text
+[3, 2, 5, 4]
+```
+
+### Complejidad
+
+- **Tiempo: O(n²).** Se utiliza Bubble Sort, que compara los elementos mediante dos ciclos anidados. El intercambio de parejas es O(n), por lo que la complejidad total sigue siendo O(n²).
+- **Espacio: O(1).** No se utilizan estructuras adicionales, ya que los cambios se realizan directamente sobre el vector original.
+
+### Código
+
+[Ver solución en C++](2974_Minimum_Number_Game.cpp)
+
+## Problema 2: Number of Recent Calls
+
+**Número:** 933  
+**Dificultad:** Easy  
+**Tema:** Estructuras lineales
+
+**Enlace:** https://leetcode.com/problems/number-of-recent-calls/
+
+Pendiente de resolver.
+
+## Problema 3: Kth Smallest Element in a BST
+
+**Número:** 230  
+**Dificultad:** Medium  
+**Tema:** Estructuras no lineales
+
+**Enlace:** https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+Pendiente de resolver.
+
+## Plataforma utilizada
+
+Los problemas se resuelven utilizando C++ en LeetCode, donde se comprueba que las soluciones produzcan los resultados correctos mediante casos de prueba.
