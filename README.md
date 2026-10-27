@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En esta evidencia se resuelven tres problemas de LeetCode utilizando C++.
+En esta evidencia publicare tres problemas de LeetCode utilizando C++.
 
 Los problemas se seleccionaron con dos niveles de dificultad Easy y uno Medium.
 
