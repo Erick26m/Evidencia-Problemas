@@ -71,6 +71,3 @@ La solución fue aceptada por LeetCode, pasando todos los casos de prueba.
 
 ![Accepted en LeetCode](2974_Accepted.png)
 
-## Plataforma utilizada
-
-Los problemas se resuelven utilizando C++ en LeetCode, donde se comprueba que las soluciones produzcan los resultados correctos mediante casos de prueba.
