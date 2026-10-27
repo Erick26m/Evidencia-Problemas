@@ -73,3 +73,10 @@ Después se utiliza otro ciclo para intercambiar las parejas de números, con co
 
 **Mi solución:** https://leetcode.com/problems/minimum-number-game/solutions/8590559/solucion-problema-2974-by-erickmunoz-42cr
 
+### Video explicativo
+
+En este video explico cómo resolví el problema
+2974. Minimum Number Game utilizando Bubble Sort.
+
+[Ver video explicativo](https://drive.google.com/file/d/1JJAK33H-Ll-844BtJ7oLC0Gt6mdrkFSV/view?usp=sharing)
+
