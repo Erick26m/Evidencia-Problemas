@@ -71,5 +71,5 @@ Después se utiliza otro ciclo para intercambiar las parejas de números, con co
 
 **Problema:** https://leetcode.com/problems/minimum-number-game/
 
-**Mi solución:** PEGA_AQUI_EL_ENLACE_DE_TU_SOLUCION
+**Mi solución:** https://leetcode.com/problems/minimum-number-game/solutions/8590559/solucion-problema-2974-by-erickmunoz-42cr
 
