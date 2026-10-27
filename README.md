@@ -65,6 +65,12 @@ Después se utiliza otro ciclo para intercambiar las parejas de números, con co
 
 [Ver solución en C++](2974_Minimum_Number_Game.cpp)
 
+### Validación en LeetCode
+
+La solución fue aceptada por LeetCode, pasando todos los casos de prueba.
+
+![Accepted en LeetCode](2974_Accepted.png)
+
 ## Plataforma utilizada
 
 Los problemas se resuelven utilizando C++ en LeetCode, donde se comprueba que las soluciones produzcan los resultados correctos mediante casos de prueba.
