@@ -67,7 +67,7 @@ Después se utiliza otro ciclo para intercambiar las parejas de números, con co
 
 **Enlaces de LeetCode**
 
-**Mi perfil:** https://leetcode.com/u/TU_USUARIO/
+**Mi perfil:** https://leetcode.com/u/ErickMunoz/
 
 **Problema:** https://leetcode.com/problems/minimum-number-game/
 
