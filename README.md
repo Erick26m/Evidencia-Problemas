@@ -60,9 +60,7 @@ En los tres casos la complejidad es la misma, ya que el algoritmo realiza las co
 
 Después se utiliza otro ciclo para intercambiar las parejas de números, con complejidad O(n), pero esto no modifica la complejidad total de la función.
 
-**Complejidad espacial: O(1)**
 
-Se utilizan solamente variables para guardar temporalmente los números durante los intercambios, sin crear arreglos adicionales.
 ### Código
 
 [Ver solución en C++](2974_Minimum_Number_Game.cpp)
