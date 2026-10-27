@@ -13,8 +13,6 @@ Los problemas se seleccionaron con dos niveles de dificultad Easy y uno Medium.
 **Tema:** Algoritmos de ordenamiento  
 **Algoritmo utilizado:** Bubble Sort
 
-**Enlace al problema:** https://leetcode.com/problems/minimum-number-game/
-
 ### Descripción del problema
 
 El problema consiste en un juego entre Alice y Bob. En cada ronda, Alice toma el número más pequeño del arreglo y Bob toma el siguiente número más pequeño. Después, los números se agregan al resultado colocando primero el de Bob y luego el de Alice.
@@ -67,7 +65,11 @@ Después se utiliza otro ciclo para intercambiar las parejas de números, con co
 
 ### Validación en LeetCode
 
-La solución fue aceptada por LeetCode, pasando todos los casos de prueba.
+**Enlaces de LeetCode**
 
-![Accepted en LeetCode](2974_Accepted.png)
+**Mi perfil:** https://leetcode.com/u/TU_USUARIO/
+
+**Problema:** https://leetcode.com/problems/minimum-number-game/
+
+**Mi solución:** PEGA_AQUI_EL_ENLACE_DE_TU_SOLUCION
 
