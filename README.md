@@ -46,11 +46,23 @@ nums = [5, 4, 2, 3]
 [3, 2, 5, 4]
 ```
 
-### Complejidad
+### Análisis de complejidad
 
-- **Tiempo: O(n²).** Se utiliza Bubble Sort, que compara los elementos mediante dos ciclos anidados. El intercambio de parejas es O(n), por lo que la complejidad total sigue siendo O(n²).
-- **Espacio: O(1).** No se utilizan estructuras adicionales, ya que los cambios se realizan directamente sobre el vector original.
+**Función: numberGame()**
 
+- **Mejor caso: O(n²)**
+- **Caso promedio: O(n²)**
+- **Peor caso: O(n²)**
+
+Se utiliza el algoritmo Bubble Sort para ordenar los números. Su complejidad es O(n²) debido a que utiliza dos ciclos anidados para comparar los elementos del arreglo.
+
+En los tres casos la complejidad es la misma, ya que el algoritmo realiza las comparaciones sin importar si los números ya están ordenados o no.
+
+Después se utiliza otro ciclo para intercambiar las parejas de números, con complejidad O(n), pero esto no modifica la complejidad total de la función.
+
+**Complejidad espacial: O(1)**
+
+Se utilizan solamente variables para guardar temporalmente los números durante los intercambios, sin crear arreglos adicionales.
 ### Código
 
 [Ver solución en C++](2974_Minimum_Number_Game.cpp)
