@@ -1,4 +1,3 @@
-
 class RecentCounter {
 private:
     int solicitudes[3001];
@@ -14,17 +13,17 @@ public:
         cantidad = 0;
     }
 
-    // Registrar y contar las solicitudes recientes
+    // Contar las solicitudes de los ultimos 3000 ms
     int ping(int t) {
         int tiempoMinimo = t - 3000;
 
-        // Eliminar las solicitudes antiguas
+        // Quitar las solicitudes que ya no cuentan
         while (cantidad > 0 && solicitudes[inicio] < tiempoMinimo) {
             inicio = (inicio + 1) % 3001;
             cantidad--;
         }
 
-        // Agregar la nueva solicitud
+        // Guardar la nueva solicitud
         solicitudes[fin] = t;
         fin = (fin + 1) % 3001;
         cantidad++;
@@ -32,4 +31,3 @@ public:
         return cantidad;
     }
 };
-
