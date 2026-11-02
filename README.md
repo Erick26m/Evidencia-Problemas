@@ -81,7 +81,89 @@ En este video explico cómo resolví el problema
 [Ver video explicativo](https://drive.google.com/file/d/1JJAK33H-Ll-844BtJ7oLC0Gt6mdrkFSV/view?usp=sharing)
 
 
-## Problema 2: Number of Recent Calls
 
+
+## Problema 2: Number of Recent Calls
+Número: 933
+Dificultad: Easy
+Tema: Estructuras lineales
+Estructura utilizada: Queue (Cola)
+
+Descripción del problema
+
+El problema consiste en registrar solicitudes que se realizan en diferentes momentos y contar cuántas ocurrieron durante los últimos 3000 milisegundos.
+
+Cada vez que llega una nueva solicitud, debemos contar solamente las que se encuentran dentro de ese intervalo de tiempo, incluyendo la solicitud actual.
+
+Solución
+
+Para resolver el problema utilicé una cola (queue), porque permite guardar las solicitudes en el orden en que van llegando y eliminar primero las más antiguas.
+
+Primero, la función ping() recibe el tiempo de una solicitud y lo agrega a la cola utilizando push().
+
+Después se utiliza un ciclo while para revisar si la solicitud más antigua ya quedó fuera del intervalo de los últimos 3000 milisegundos. Si ya no cuenta, se elimina utilizando pop().
+
+Este proceso se repite hasta que la solicitud más antigua todavía esté dentro del tiempo permitido.
+
+Finalmente, utilizo size() para regresar la cantidad de solicitudes que quedan en la cola.
+
+Ejemplo
+
+Entrada:
+
+ping(1)
+ping(100)
+ping(3001)
+ping(3002)
+
+Salida:
+
+1, 2, 3, 3
+
+En la última solicitud, el tiempo es 3002. Como solo cuentan las solicitudes desde el tiempo 2 hasta el 3002, eliminamos la solicitud del tiempo 1 porque ya no está dentro del intervalo.
+
+Por eso la función regresa 3.
+
+Análisis de complejidad
+
+Función: ping()
+
+Mejor caso: O(1)
+
+Caso promedio amortizado: O(1)
+
+Peor caso general: O(n)
+
+En el mejor caso solamente se agrega una solicitud y se regresa el tamaño de la cola, sin necesidad de eliminar elementos.
+
+En el peor caso general, el ciclo while puede eliminar varias solicitudes antiguas, por lo que puede realizar hasta n eliminaciones.
+
+El costo amortizado es O(1), porque cada solicitud se agrega una vez y se elimina como máximo una vez.
+
+En las condiciones específicas de LeetCode, los tiempos son enteros crecientes y el intervalo es fijo de 3000 milisegundos. Por eso, la cola puede guardar como máximo 3001 solicitudes y el peor caso también queda acotado por O(1).
+
+Complejidad espacial: O(n)
+
+Se utiliza una cola para almacenar las solicitudes recientes, por lo que, en el análisis general, la memoria depende de cuántos elementos contiene.
+
+En este problema, el límite de 3001 solicitudes hace que el espacio también esté acotado por O(1) bajo las restricciones específicas de LeetCode.
+
+Código
+
+Ver solución en C++
+
+Validación en LeetCode
+
+Mi perfil: https://leetcode.com/u/ErickMunoz/
+
+Problema: https://leetcode.com/problems/number-of-recent-calls/
+
+Mi solución: Pendiente de agregar.
+
+Video explicativo
+
+En este video explico cómo resolví el problema 933. Number of Recent Calls utilizando una cola para registrar las solicitudes y eliminar las que ya no están dentro del intervalo de tiempo.
+
+Video: Pendiente de agregar.
 
 
