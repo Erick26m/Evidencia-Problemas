@@ -99,7 +99,7 @@ Cada vez que llega una nueva solicitud, debemos contar solamente las que se encu
 
 ### Solución
 
-Para resolver el problema utilicé una cola circular implementada con un arreglo, sin utilizar la biblioteca `queue` de C++.
+Para resolver el problema utilicé una cola circular implementada con un arreglo.
 
 Primero declaré un arreglo de 3001 posiciones para guardar los tiempos de las solicitudes. También utilicé tres variables: `inicio`, para indicar la posición de la solicitud más antigua; `fin`, para saber dónde guardar la siguiente solicitud; y `cantidad`, para llevar el conteo de los elementos.
 
@@ -138,23 +138,10 @@ Por eso la función regresa 3.
 
 **Función: ping()**
 
-Considerando las restricciones específicas del problema y nuestra implementación:
-
 - **Mejor caso: O(1)**
 - **Caso promedio: O(1)**
 - **Peor caso: O(1)**
 
-En el mejor caso no se necesita eliminar ninguna solicitud antigua, solamente se guarda la nueva y se regresa la cantidad.
-
-El ciclo `while` puede ejecutarse varias veces cuando existen solicitudes fuera del intervalo. Sin embargo, como los tiempos son enteros estrictamente crecientes y solo contamos los últimos 3000 milisegundos, el arreglo necesita almacenar como máximo 3001 solicitudes.
-
-Por eso, aunque se eliminen varias solicitudes, la cantidad máxima de operaciones está limitada por una constante y la complejidad es O(1) para las restricciones de este problema.
-
-Si analizáramos una cola general con capacidad variable de n elementos, el peor caso de una llamada sería O(n), porque podría ser necesario eliminar hasta n solicitudes. Su costo amortizado sería O(1), ya que cada solicitud se agrega y elimina como máximo una vez.
-
-**Complejidad espacial: O(1)**
-
-Se utiliza un arreglo de tamaño fijo de 3001 posiciones y tres variables para controlar la cola. Como el tamaño del arreglo no aumenta, la memoria adicional utilizada es constante.
 
 ### Código
 
