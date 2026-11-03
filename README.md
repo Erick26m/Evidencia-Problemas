@@ -153,7 +153,7 @@ Por eso la función regresa 3.
 
 **Problema:** https://leetcode.com/problems/number-of-recent-calls/
 
-**Mi solución:** Pendiente de agregar.
+**Mi solución:** https://leetcode.com/problems/number-of-recent-calls/solutions/8599581/solucion-problema-933-by-erickmunoz-32ne
 
 ### Video explicativo
 
