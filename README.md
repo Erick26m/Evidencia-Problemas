@@ -157,6 +157,5 @@ Por eso la función regresa 3.
 
 ### Video explicativo
 
-En este video explico cómo resolví el problema 933. Number of Recent Calls utilizando una cola circular implementada con un arreglo para guardar las solicitudes y eliminar las que ya no se encuentran dentro del intervalo de tiempo.
-
+En este video explico cómo resolví el problema 933. Number of Recent Calls utilizando una Cola (Queue)
 **Video:** Pendiente de agregar.
