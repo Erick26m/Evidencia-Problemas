@@ -89,7 +89,7 @@ En este video explico cómo resolví el problema
 **Número:** 933  
 **Dificultad:** Easy  
 **Tema:** Estructuras lineales  
-**Estructura utilizada:** Cola (Queue)
+**Estructura utilizada:** Queue (Cola)
 
 ### Descripción del problema
 
