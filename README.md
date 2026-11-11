@@ -138,9 +138,21 @@ Por eso la función regresa 3.
 
 **Función: ping()**
 
+**Complejidad temporal:**
+
 - **Mejor caso: O(1)**
-- **Caso promedio: O(1)**
-- **Peor caso: O(1)**
+- **Caso promedio:** depende de cuántas solicitudes deban eliminarse.
+- **Peor caso general: O(n)**
+
+En el mejor caso no se necesita eliminar ninguna solicitud y solamente se agrega la nueva.
+
+En el peor caso general, el ciclo `while` puede eliminar hasta n solicitudes almacenadas en la cola.
+
+El caso promedio depende de la distribución de las solicitudes y de cuántas se eliminan en cada llamada. 
+
+**Complejidad espacial: O(1)**
+
+Se utiliza un arreglo de 3001 posiciones y tres variables para controlar la cola. Como la memoria reservada no aumenta, el espacio utilizado es constante.
 
 
 ### Código
